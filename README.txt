@@ -1,10 +1,27 @@
-# UniQ Men's Saloon Website
+UniQ Men's Saloon Website
 
-Premium black + gold responsive website recreated from the supplied reference design.
+This package includes the website plus a local images/haircuts folder containing 20 haircut reference images.
+All haircut cards in index.html use local image files, so the haircut collection does not depend on external image URLs.
 
-Files:
-- index.html — complete page structure
-- style.css — responsive premium styling
-- script.js — mobile menu, smooth scrolling and active navigation
-
-Replace the phone number, address, prices and image URLs in `index.html` / `style.css` with the salon's real details.
+Folder:
+images/haircuts/
+- slick-back-fade.jpg
+- textured-quiff.jpg
+- classic-side-part.jpg
+- textured-crop.jpg
+- buzz-cut-fade.jpg
+- low-taper-fade.jpg
+- pompadour.jpg
+- modern-fade.jpg
+- french-crop.jpg
+- caesar-cut.jpg
+- mid-fade.jpg
+- high-fade.jpg
+- skin-fade.jpg
+- crew-cut.jpg
+- undercut.jpg
+- messy-fringe.jpg
+- burst-fade.jpg
+- modern-mullet.jpg
+- mohawk-fade.jpg
+- wolf-cut.jpg

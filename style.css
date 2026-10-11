@@ -142,3 +142,11 @@ footer small{color:#888;font-size:10px}
 .haircut-info p{font-size:10px;color:#aaa;margin-top:3px}
 @media(max-width:760px){.haircut-grid{grid-template-columns:1fr 1fr;gap:12px}.haircut-image{height:210px}}
 @media(max-width:430px){.haircut-image{height:175px}.haircut-info h3{font-size:13px}.haircut-info p{font-size:9px}}
+
+
+/* Premium owner hero artwork */
+.premium-hero{min-height:0;display:block;background:#050505;border-bottom:1px solid #322714;overflow:hidden;padding:0;}
+.premium-hero-image{display:block;width:100%;height:auto;object-fit:cover;}
+.premium-feature-strip{display:none;}
+@media(max-width:760px){.premium-hero-image{width:100%;height:360px;object-fit:cover;object-position:64% center;}}
+@media(max-width:430px){.premium-hero-image{height:330px;object-position:65% center;}}
