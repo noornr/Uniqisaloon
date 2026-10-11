@@ -130,3 +130,15 @@ footer small{color:#888;font-size:10px}
   .hero-brand{font-size:53px}.hero-sub{font-size:17px}.hero-tag{font-size:9px}.hero-logo .mini-scissor{font-size:38px}
   .feature-strip h3{font-size:14px}.feature-strip p{font-size:10px}.service-copy h3{font-size:15px}.service-copy p{font-size:10px}
 }
+
+.section-intro{text-align:center;color:#aaa;font-size:12px;margin-top:2px}
+.haircut-styles{background:linear-gradient(180deg,#050505,#090806)}
+.haircut-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;max-width:1050px;margin:auto}
+.haircut-card{border:1px solid var(--line);background:#080808;overflow:hidden;transition:.25s}
+.haircut-card:hover{transform:translateY(-5px);border-color:var(--gold2)}
+.haircut-image{height:245px;background-size:cover;background-position:center}
+.haircut-info{text-align:center;padding:13px 8px 15px}
+.haircut-info h3{font:600 16px var(--serif);color:var(--gold2);letter-spacing:1px}
+.haircut-info p{font-size:10px;color:#aaa;margin-top:3px}
+@media(max-width:760px){.haircut-grid{grid-template-columns:1fr 1fr;gap:12px}.haircut-image{height:210px}}
+@media(max-width:430px){.haircut-image{height:175px}.haircut-info h3{font-size:13px}.haircut-info p{font-size:9px}}
