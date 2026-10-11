@@ -136,7 +136,7 @@ footer small{color:#888;font-size:10px}
 .haircut-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;max-width:1050px;margin:auto}
 .haircut-card{border:1px solid var(--line);background:#080808;overflow:hidden;transition:.25s}
 .haircut-card:hover{transform:translateY(-5px);border-color:var(--gold2)}
-.haircut-image{height:245px;background-size:cover;background-position:center}
+.haircut-image{height:245px;background-color:#111;background-size:cover;background-position:center}
 .haircut-info{text-align:center;padding:13px 8px 15px}
 .haircut-info h3{font:600 16px var(--serif);color:var(--gold2);letter-spacing:1px}
 .haircut-info p{font-size:10px;color:#aaa;margin-top:3px}
